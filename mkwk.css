@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e7edfd;
+}
+
+header {
+  background-image: url('weBg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  color: azure;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ad7e63;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #ad7e63;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  position: follow;
+  width: 100%;
+  bottom: 0;
+}
